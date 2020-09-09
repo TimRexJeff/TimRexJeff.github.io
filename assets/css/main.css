@@ -1791,7 +1791,18 @@ input, select, textarea {
 				height: 1px;
 			}
 
+		header.major div {
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		header.major div .column {
+			display: flex;
+			flex-direction: column;
+		}
+
 		header.major p {
+			margin: 0;
 			color: #fff;
 			top: 0;
 		}
@@ -1801,6 +1812,15 @@ input, select, textarea {
 			header.major {
 				margin: 0 0 2em 0;
 			}
+
+				header.major div {
+					padding: 20px;
+					padding-top: 0px;
+					display: flex;
+					flex-direction: row;
+					flex-wrap: wrap;
+					justify-content: space-between;
+				}
 
 		}
 
@@ -2563,43 +2583,43 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				background-color: rgba(76,178,165, 0.1);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
+				background-color: rgba(76,178,165, 0.2);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
+				background-color: rgba(76,178,165, 0.3);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-color: rgba(76,178,165, 0.4);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				background-color: rgba(76,178,165, 0.5);
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(0, 0, 0, 0.21);
+				background-color: rgba(76,178,165, 0.6);
 			}
 
 			.features li:nth-child(7) {
-				background-color: rgba(0, 0, 0, 0.245);
+				background-color: rgba(76,178,165, 0.7);
 			}
 
 			.features li:nth-child(8) {
-				background-color: rgba(0, 0, 0, 0.28);
+				background-color: rgba(76,178,165, 0.8);
 			}
 
 			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.315);
+				background-color: rgba(76,178,165, 0.9);
 			}
 
 			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.35);
+				background-color: rgba(76,178,165, 1);
 			}
 
 			.features li:before {
@@ -3139,7 +3159,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
+			background-color: rgb(76,178,165, 0.25);
 		}
 
 		.wrapper.style5 {
